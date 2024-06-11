@@ -1,0 +1,452 @@
+.basic-intro a img{
+    width:1000px;
+    height:350px;
+    object-fit: cover;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    margin-bottom:1.5rem;
+}
+.biodata{
+    margin-left:2rem;
+    margin-bottom:-1rem;
+    display:flex;
+}
+.biodata .left{
+    align-items: center;
+    justify-content: space-between;
+}
+.biodata .left img{
+    width:180px;
+    height:180px;
+    object-fit: cover;
+    border:3px solid gray;
+    border-radius: 50%;
+}
+.biodata .right{
+    margin-left: 2rem;
+}
+.biodata .right b{
+    font-weight:500;
+}
+.biodata .right .btn-secondary{
+    padding:6px 10px;
+}
+.biodata .right .btn-primary{
+    padding:6px 10px;
+}
+.biodata .right button{
+    width:8rem;
+    font-weight: 500;
+}
+.basic-intro ul{
+    margin-left:2rem;
+}
+.biodata .right .x{
+    margin-left:.5rem;
+}
+.data{
+    padding-top: 1rem;
+    padding-left: 13.6rem;
+    padding-right: 11rem;
+background-color: #f7f7f7;
+}
+
+.data .col-5 .row{
+    border-radius: 2%;
+    background-color: white;
+    margin-right:1rem;
+    max-height:300px;
+}
+
+.data .col-5 h6{
+    margin-bottom:1rem;
+}
+.data .col-5 h6 span{
+    font-weight: 400;
+}
+.data  .inna h6{
+    margin-bottom:1rem;
+}
+.data .inna h4{
+    margin-top: 1.5rem;
+}
+.data  .inna h6 span{
+    font-weight: 400;
+}
+.data .col-7::-webkit-scrollbar{
+    width:0px;
+}
+.data .col-7{
+    scroll-behavior: smooth;
+}
+.data .col-7 .row{
+    padding:1rem 1rem;
+}
+.data .col-7 .row {
+    padding:1rem 1rem;
+}
+.ButtonJolo:hover{
+    background-color: rgb(216, 209, 209);
+}
+.data .col-7 .row img{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+.data .col-7 .row{
+    border-radius: 10px;
+    background-color: white;
+    outline:1px solid 	#dfe3ee;
+}
+.data .col-5 .row .card-wrapper{
+    display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        grid-column-gap: .2rem;
+                        grid-row-gap: 1rem;
+}
+
+.data .col-5 .row .card-wrapper img{
+    width: 100px;
+    height:100px;
+    object-fit: cover;
+}
+.data .col-5 .row .card-wrapper .card{
+    border:none;
+}
+.data .col-5 .row .card-wrapper .card a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.data .col-5 .row .card-wrapper .card a:hover{
+    text-decoration: underline;
+}
+.data  .row .flexx{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data .col-5 .row .flexx a{
+    text-decoration: none;
+}
+.data .col-5 .row .flexx p{
+    color:rgb(0, 0, 255);
+    cursor: pointer;
+}
+.data .col-5 .row .flexx p:hover{
+    color:rgb(61, 61, 146);
+}
+.data .col-7 .row .posthead{
+    display:flex;
+    margin-bottom:-.6rem;
+}
+.data .col-7 .row .posthead .left img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.data .col-7 .row .posthead .right{
+    margin-left:.5rem;
+}
+.data .col-7 .row .posthead .right a{
+   text-decoration: none;
+   color:rgb(73, 41, 41);
+}
+.data .col-7 .row .posthead .right a:hover{
+    text-decoration: underline;
+ }
+ .data .col-7 .row .postphoto{
+     border-radius: 0%;
+     height:500px;
+     width:100%;
+     object-fit: cover;
+     
+ }
+ .data .col-7 .row .like{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .data .col-7 .row .like .right p{
+    margin-top:1rem;
+    color:rgb(88, 72, 72);
+    font-weight: 400;
+ }
+
+ .data .col-7 .row .like .right a:hover{
+     text-decoration: underline;
+ }
+ .data .col-7 .row .comment {
+     display:flex;
+     margin-bottom:1rem;
+ }
+
+ .data .col-7 .row .comment .left{
+     margin-right:1rem;
+ }
+ .data .col-7 .row .comment .right{
+     padding:.3rem .5rem;
+     border-radius: 20px;
+     background-color: rgb(233, 236, 238);
+ }
+ .data .col-7 .row .comment .right a{
+     color:rgb(110, 104, 104);
+     text-decoration: none;
+ }
+ .data .col-7 .row .comment .right a:hover{
+     text-decoration:underline;
+ }
+ .data .col-7 .row .view-more{
+     cursor:pointer;
+     font-weight: 500;
+     color:black;
+ }
+ .data .col-7 .row .view-more:hover{
+     text-decoration: underline;
+ }
+ .modalpic{
+     display: flex;
+ }
+ .modalpic .right{
+     margin-left:1rem;
+ }
+ .photomodal{
+     display: none;
+ }
+ .emojis{
+     display: flex;
+ }
+ .emojiFrame{
+     cursor: pointer;
+ }
+ .places{
+     display:none;
+ }
+ .contact{
+    display:none;
+}
+.relationship{
+    display:none;
+}
+.aboutyou{
+    display:none;
+}
+.friendsintro{
+    margin-bottom:3rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.friendsintro .right{
+    display:flex;
+}
+.friendsintro form{
+    margin-right:2rem;
+}
+.friendsintro .right input{
+    padding-left:1rem;
+    height:2rem;
+    width:15rem;
+    border:none;
+    border-radius: 40px;
+    background-color: rgb(245, 248, 250);
+}
+.friendsintro .right input:focus{
+    outline:2px solid rgb(189, 186, 186);
+}
+.friendsintro .right a{
+    padding-top:3px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    width:10rem;
+}
+.friendsintro .right a:hover{
+    background-color: rgb(189, 186, 186);
+}
+.parentfr{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap:1rem;
+}
+.photopar{
+    margin-top:-2rem;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap:1rem;
+}
+.photoparr{
+    margin-top:-2rem;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap:1rem;
+}
+.friend{
+    align-items:center;
+    outline:2px solid rgb(236, 234, 234);
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    padding:1rem 1rem;
+    display:flex;
+}
+.friend .left img{
+    height:80px;
+    width:80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.friend .left{
+    margin-right:1rem;
+}
+.friend .right a{
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+.friend .right a:hover{
+    text-decoration: underline;
+}
+.photopar .photos img{
+    height:200px;
+    width:200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.dp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dp .right input{
+    width: 25em;
+}
+.modal-body .chobi{
+    margin-top:2rem;
+    margin-left:35%;
+}
+.modal-body .chobi img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.modal-body .cover-chobi{
+    margin-left:25%;
+    margin-top:2rem;
+}
+.modal-body .cover-chobi img{
+    height:200px;
+    width: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.dp .right h5{
+    color:blue;
+    width: 100px;
+    height: 1.9rem;
+    text-align: center;
+    cursor: pointer;
+}
+.dp .right h5:hover{
+    border-radius: 10px;
+background-color: rgb(230, 224, 224);
+}
+.modal-body textarea:focus{
+    outline: 3px solid rgb(76, 0, 255);
+}
+.modal-body .biolekho{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(221, 216, 216);
+    margin-left:30%;
+    display: none;
+}
+#bioeditcancel{
+    cursor: pointer;
+    display: none;
+}
+#introeditcancel{
+    cursor: pointer;
+    display: none;
+}
+.editintro{
+    display: none;
+}
+.editintro input{
+    padding-left:.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    border: none;
+    height: 2rem;
+    border-radius:10px ;
+    outline: 2px solid rgb(238, 233, 233);
+    
+}
+.editabout textarea{
+    border: none;
+    outline:none;
+    background-color: rgb(241, 239, 239);
+    border-radius: 10px;
+}
+.editabout input{
+    padding-left:.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    border: none;
+    height: 2rem;
+    border-radius:10px ;
+    outline: 2px solid rgb(238, 233, 233);
+    
+}
+.editabout{
+    display: none;
+}
+#abouteditcancel{
+    display: none;
+}
+.editabout textarea::-webkit-scrollbar{
+    width: 0rem;
+}
+.modal-body textarea::-webkit-scrollbar{
+    width: 0rem;
+}
+.gai{
+    display: none;
+}
+.unfollow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.unfollow img{
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+hr.new1 {
+    margin-left:-1rem;
+    width:500px;
+  }
+  .divide{
+    display: flex;
+    position: relative;
+}
+.icoin{
+    position:absolute;
+    cursor: pointer;
+    top:50%;
+    left:92%;
+}

@@ -1,0 +1,140 @@
+ .card-wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 2rem;
+        grid-row-gap: 6rem;
+    }
+.card-wrapper .card{
+        background: var(--light);
+        padding: 3rem 2rem;
+        position: relative;
+        padding-top: 5rem;
+        text-align: center;
+        transition: all .5s ease;
+    }
+.card-wrapper .card:hover{
+    cursor:pointer;
+    }
+ .card-wrapper .card img{
+        position: absolute;
+        top: -3.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+   .card-wrapper a{
+        text-decoration: none;
+    }
+    .card-wrapper .card h2{
+        font-weight: 400;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+     .card-wrapper .card p{
+        font-family: 'Lato', sans-serif;
+        line-height: 1.6;
+        color: var(--ternary);
+    }
+    .card-wrapper .card:hover{
+        background:linear-gradient(135deg,#71b7e6, #9b59b6);
+        transform: scale(1.1);
+    
+    }
+     .card-wrapper .card:hover h2{
+        color: var(--pure);
+        font-size:1.7rem;
+    }
+    .card-wrapper .card:hover p{
+        color: var(--pure);
+    }
+    .containerr{
+        background:black;
+    }
+    .bodyy{
+        margin-top:5rem;
+        background:var(--pure);
+    }
+
+
+    .form-popup {
+        display:none;
+        position: fixed;
+        top: 40%;
+        left: 30rem;
+        border: none;
+        z-index: 9;
+      }
+
+    .form-container {
+        max-width:500px;
+        padding: 10px;
+        background-color: white;
+      }
+      
+      .form-container input{
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+
+      .form-container input:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      
+      .form-container .btn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-top:10px;
+        opacity: 0.8;
+      }
+      
+      .form-container .cancel {
+        background-color: red;
+      }
+      
+      .form-container .btn:hover, .open-button:hover {
+        opacity: 1;
+      }
+      .btn-dorkar{
+          font-weight: 390;
+          font-size: 15px;
+          color: var(--pure); 
+          border:none;
+          background:transparent;
+          cursor: pointer;
+          transition:all 0.3s ease;
+      }
+      .btn-dorkar:hover{
+       color:var(--dark);
+      }
+
+      .pay{
+        font-size:1.3rem;
+        animation: text .8s linear infinite;
+        color:white;
+        background:red;
+        font-weight: 600;
+      }
+      .pay:after{
+        content:" IS NOT COMPLETED!";
+      }
+      .pay:hover{
+        color:white;
+        background:red;
+      }
+      @keyframes text{
+        0%{
+            color: black;
+            margin-top: -3px;
+        }
+      }
+      .naihoyejabe{
+        display:none;
+      }

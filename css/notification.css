@@ -1,0 +1,24 @@
+.search .row-1 .inner{
+    grid-template-columns: repeat(1,1fr);
+}
+.search .row-1 .inner .cd .mid{
+    width: 650px;
+}
+.search .row-1 .inner .cd .right{
+    height: 50px;
+    width: 50px;
+}
+.cd:hover{
+    cursor: pointer;
+    background-color: rgb(211, 207, 207);
+}
+.search .row-1 .inner .cd .mid{
+    flex-direction: row;
+}
+
+.search .row-1 .inner .cd .mid a{
+    margin-right:.3rem;
+}
+.search{
+    padding:2rem 15rem;
+}

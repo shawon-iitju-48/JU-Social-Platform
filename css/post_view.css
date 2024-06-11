@@ -1,0 +1,149 @@
+.first{
+    max-width: 1378px;
+}
+
+.first .col-9{
+    padding:1rem 2rem;
+    max-height: 601px;
+    background-color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+.ButtonJolo:hover{
+    background-color: rgb(216, 209, 209);
+}
+html::-webkit-scrollbar {
+    width: 0rem;
+}
+.first .col-3{
+    padding-left:1rem;
+    padding-right:1rem;
+    max-height: 538px;
+    overflow-y:scroll ;
+}
+.first .col-3::-webkit-scrollbar{
+    width:0rem;
+}
+.head{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.first img{
+    margin-top:-3.5rem;
+    margin-left:14rem;
+    width:450px;
+    height:657px;
+    object-fit:calc(100%);
+
+}
+.matha{
+    margin-left:-14rem;
+    margin-top:3.3rem;
+    display: flex;
+}
+.matha .left img{
+    width:50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.matha .right{
+    margin-left:.5rem;
+    margin-top:-2.3rem;
+}
+.matha .right a{
+   text-decoration:none;
+   color:rgb(26, 24, 24);
+}
+.matha .another{
+    margin-left:3rem;
+    margin-top:-2.3rem;
+}
+.matha .right a:hover{
+    text-decoration: underline;
+}
+
+.edit-post-form{
+    display: none;
+    margin-top:1rem;
+}
+
+ .like{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.like .right p{
+   margin-top:1rem;
+   color:rgb(88, 72, 72);
+   font-weight: 400;
+}
+
+ .like .right a:hover{
+    text-decoration: underline;
+}
+.agao{
+    margin-top:-1.6rem;
+}
+
+ .comment {
+     margin-top: 4rem;;
+     margin-left: -15rem;
+    display:flex;
+    margin-bottom:3rem;
+}
+
+.comment .left{
+    margin-left: .5rem;
+    margin-right:.5rem;
+}
+.comment .left img{
+    width:50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.comment .right{
+    margin-top:-2.3rem;
+    padding:.3rem.5rem;
+    border-radius: 20px;
+    background-color: rgb(233, 236, 238);
+}
+ .comment .right a{
+    color:rgb(110, 104, 104);
+    text-decoration: none;
+}
+ .comment .right a:hover{
+    text-decoration:underline;
+}
+ .view-more{
+    cursor:pointer;
+    font-weight: 500;
+    color:black;
+}
+ .view-more:hover{
+    text-decoration: underline;
+}
+
+.btm{
+    position: fixed;
+    bottom:-1.3rem;
+    right:0;
+    left:50.5rem;
+    display:flex;
+}
+.btm img{
+    width:50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.btm form{
+    margin-top:-2rem;
+}
+hr.new1 {
+    margin-left:-1rem;
+    width:500px;
+  }

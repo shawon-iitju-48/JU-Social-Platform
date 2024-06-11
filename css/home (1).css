@@ -1,0 +1,98 @@
+.data{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top:0rem;
+}
+.data .col-7{
+  margin-right:-4rem;
+    padding-top:.3rem;
+    height: 601px;
+    overflow-y: scroll;
+    width: 610px;
+    margin-right:2rem;
+    padding-right:6.5rem;
+    margin-left:5.8rem;
+}
+.data .col-7::-webkit-scrollbar{
+  width: 5px;
+}
+.data .col-5{
+    width: 300px;
+    height: 600px;
+    overflow-y:scroll;
+}
+.data .col-3{
+  margin-left: 2rem;
+    height: 598px;
+    width:290px;
+    overflow-y:scroll;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #dfe3ee;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(165, 162, 162); 
+  border-radius: 10px;
+}
+.sidebar{
+  height:3rem;
+  margin-left:-.3rem;
+  margin-top:1rem;
+  display:flex;
+  padding:.5rem .5rem;
+}
+.sidebar:hover{
+  background-color: rgb(207, 203, 203);
+  border-radius: 10px;
+  width:110%;
+  cursor: pointer;
+}
+.sidebar .left img{
+  height:30px;
+  width:30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.sidebar .right{
+  margin-top:.2rem;
+  margin-left:.5rem;
+}
+.side a{
+  font-weight:500 ;
+  text-decoration: none;
+  color:rgb(78, 68, 68);
+}
+.con h5{
+  margin-top:1.3rem;
+}
+.con a{
+  text-decoration: none;
+  color:rgb(78, 68, 68);
+  font-weight:500 ;
+}
+.con .sidebar:hover{
+  width:100%;
+}
+.con .sidebar{
+  height:3rem;
+  margin-bottom:-1.3rem;
+}
+.data .col-7 .row .postphoto{
+  height:500px; 
+}
+.data .col-7 .row .postphoto{
+
+  width:28.7rem;
+
+  
+}

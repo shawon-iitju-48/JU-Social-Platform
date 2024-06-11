@@ -1,0 +1,12 @@
+.user-details .input-box input{
+    height:2rem;
+    width:14rem;
+    margin-bottom: 3rem;
+    outline:none;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding-left:15px;
+    font-size:16px;
+    border-bottom-width: 2px;
+    transition:all 0.3s ease;
+}

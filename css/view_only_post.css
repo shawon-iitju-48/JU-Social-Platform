@@ -1,0 +1,103 @@
+.data{
+    min-height:600px;
+    padding-top: 1rem;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: #f7f7f7;
+}
+.row{
+    border-radius: 2%;
+    background-color: white;
+    margin-right:1rem;
+    min-height:300px;
+    padding:0.5rem .5rem;
+}
+.agao{
+    margin-top:-1.6rem;
+}
+
+.ButtonJolo:hover{
+    background-color: rgb(216, 209, 209);
+}
+.row img{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.row .flexx{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row .flexx a{
+    text-decoration: none;
+}
+.row .flexx p{
+    color:rgb(0, 0, 255);
+    cursor: pointer;
+}
+.row .flexx p:hover{
+    color:rgb(61, 61, 146);
+}
+.row .posthead{
+    display:flex;
+    margin-bottom:-.6rem;
+}
+.row .posthead .left img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.row .posthead .right{
+    margin-left:.5rem;
+}
+.row .posthead .right a{
+    text-decoration: none;
+    color:rgb(73, 41, 41);
+ }
+ .row .posthead .right a:hover{
+    text-decoration: underline;
+ }
+ .row .like{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .like .right p{
+    margin-top:1rem;
+    color:rgb(88, 72, 72);
+    font-weight: 400;
+ }
+ .row .like .right a:hover{
+    text-decoration: underline;
+}
+.row .comment {
+    display:flex;
+    margin-bottom:1rem;
+}
+.row .comment .left{
+    margin-right:1rem;
+}
+.row .comment .right{
+    padding:.3rem .5rem;
+    border-radius: 20px;
+    background-color: rgb(233, 236, 238);
+}
+.row .comment .right a{
+    color:rgb(110, 104, 104);
+    text-decoration: none;
+}
+.row .comment .right a:hover{
+    text-decoration:underline;
+}
+.row .view-more{
+    cursor:pointer;
+    font-weight: 500;
+    color:black;
+}
+.row .view-more:hover{
+    text-decoration: underline;
+}

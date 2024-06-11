@@ -1,0 +1,16 @@
+.inp .boxx input{
+    width:15rem;
+}
+.flex-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-column-gap: .5rem; */
+    margin-top:-1rem;
+    margin-left:1rem;
+}
+.vll{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-left: 4px solid var(--ternary);
+    height: 100%;
+}

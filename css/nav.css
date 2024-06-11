@@ -1,0 +1,99 @@
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0400ff;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #2f00ff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .f{
+      margin-right:.2rem;
+      width:5rem;
+      text-align: center;
+  }
+  .navxx input{
+    padding-left:1rem;
+    height:2rem;
+    width:15rem;
+    border:none;
+    border-radius: 40px;
+    background-color: rgb(245, 248, 250);
+}
+.navxx input:focus{
+    outline:2px solid rgb(189, 186, 186);
+}
+.bg-d:hover{
+    background-color: rgb(247, 239, 250);
+    border-radius: 7px;
+}
+
+.bc {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .bc:after {
+    content: attr(data-after);
+    position: absolute;
+    width: 130%;
+    transform: scaleX(0);
+    height: 30px;
+    color:white;
+    border-radius: 5px;
+    top:3rem;
+    bottom: 0;
+    background-color: rgb(105, 104, 104);
+    left: 0;
+    transform-origin: bottom right;
+  }
+  
+  .bc:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .rounded-circle{
+    position: absolute;
+    width: 25%;
+    padding:5px 5px;
+    font-size: 10px;
+    height:50%;
+    top: -.8px;
+    right: 15px;
+    background: red;
+    color: white;
+  }
+
+  .foru{
+    margin-right:.2rem;
+      width:8rem;
+      text-align: center;
+  }
+  .foru .left{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .foru .left img{
+    transform: scale(1.5);
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
